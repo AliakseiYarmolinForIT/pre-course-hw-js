@@ -9,5 +9,5 @@ Object.assign(newPassport, passport);
 
 newPassport.name = "Ivan";
 
-console.log(newPassport);
-console.log(passport);
+console.log(newPassport.name);
+console.log(passport.name);
