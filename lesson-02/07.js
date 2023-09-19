@@ -7,9 +7,9 @@ let passportMarried = {
     }
 };
 
-let newPassportMarried = structuredClone(passportMarried);
+let passportMarried2 = structuredClone(passportMarried);
 
-newPassportMarried.married = true; 
+passportMarried2.married = true; 
 
 console.log(passportMarried);
-console.log(newPassportMarried);
+console.log(passportMarried2);
